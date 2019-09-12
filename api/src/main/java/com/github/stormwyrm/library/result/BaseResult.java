@@ -5,6 +5,9 @@ public class BaseResult<T> {
     private String msg;
     private T data;
 
+    public BaseResult() {
+    }
+
     public BaseResult(int code) {
         this.code = code;
     }
